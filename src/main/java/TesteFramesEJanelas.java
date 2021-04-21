@@ -59,6 +59,8 @@ public class TesteFramesEJanelas {
 		driver.findElement(By.tagName("textarea")).sendKeys("deu certo?");
 		driver.switchTo().window((String)driver.getWindowHandles().toArray()[0]);
 		driver.findElement(By.tagName("textarea")).sendKeys("e agora?");
+		
+		driver.quit();
 	}
 	
 }
