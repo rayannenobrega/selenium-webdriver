@@ -31,7 +31,7 @@ public class TesteCampoTreinamento {
 	// depois de cada teste execute o conteúdo desse método
 	@After
 	public void finaliza() {
-	//	driver.quit();
+		driver.quit();
 
 	}
 
